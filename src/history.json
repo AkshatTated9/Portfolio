@@ -1,0 +1,29 @@
+[
+    {
+      "role": "Web Developer Intern",
+      "organisation": "K.C Barlota & Co.",
+      "startDate": "Dec, 2023",
+      "endDate": "Feb 2024",
+      "experiences": ["Worked on Responsive Design", "Complete Website Development"],
+      "imageSrc": "history/ca-logo1.png"
+    },
+    {
+      "role": "Front-End Intern ",
+      "organisation": "Oasis Infobyte.",
+      "startDate": "Nov, 2023",
+      "endDate": "Dec, 2023",
+      "experiences": ["Worked on with HTML,CSS,js", "Designed the Todo App"],
+      "imageSrc": "history/oasis.jpg"
+    },
+    {
+      "role": "Full Stack Intern",
+      "organisation": "Capabl.",
+      "startDate": "June, 2023",
+      "endDate": "July, 2023",
+      "experiences": [
+        "Worked on component library",
+        "Learned to develop user friendly websites"
+      ],
+      "imageSrc": "history/capabll.jpg"
+    }
+  ]

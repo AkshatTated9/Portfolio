@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Todo Application",
+      "imageSrc": "projects/project.png",
+      "description": "Todo App for staying organised and productive. ",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Website For C.A. firm",
+      "imageSrc": "projects/kc.png",
+      "description": "Website for a well known C.A. firm of Maharastra",
+      "skills": ["HTML", "Node", "CSS","Javascript"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Anna Pradata",
+      "imageSrc": "projects/anna.png",
+      "description": "Platform for connecting farmers and labours . ",
+      "skills": ["React", "Node","MongoDB"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
