@@ -44,12 +44,25 @@
     display: flex;
     justify-content: space-around;
 }
-.link{
+.link {
+    background: #ffffff;
+    color: black;
     text-decoration: none;
-    color: var(--color-text);
-    font-size: 30px;
-    font-weight: 600;
-    padding: 10px;
-    border-radius: 90px;
-    background: var(--color-primary);
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.link:hover {
+    color: rgb(3, 234, 42);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }

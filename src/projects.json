@@ -3,24 +3,24 @@
       "title": "Todo Application",
       "imageSrc": "projects/project.png",
       "description": "Todo App for staying organised and productive. ",
-      "skills": ["HTML", "CSS", "Javascript"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "skills": ["React", "CSS", "Javascript"],
+      "demo": "https://github.com/AkshatTated9/Todo-App",
+      "source": "https://github.com/AkshatTated9/Todo-App"
     },
     {
       "title": "Website For C.A. firm",
       "imageSrc": "projects/kc.png",
       "description": "Website for a well known C.A. firm of Maharastra",
       "skills": ["HTML", "Node", "CSS","Javascript"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://kcbarlota.netlify.app/",
+      "source": "https://github.com/AkshatTated9?tab=repositories"
     },
     {
       "title": "Anna Pradata",
       "imageSrc": "projects/anna.png",
       "description": "Platform for connecting farmers and labours . ",
       "skills": ["React", "Node","MongoDB"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://github.com/AkshatTated9?tab=repositories",
+      "source": "https://github.com/AkshatTated9?tab=repositories"
     }
   ]
