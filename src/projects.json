@@ -16,11 +16,11 @@
       "source": "https://github.com/AkshatTated9?tab=repositories"
     },
     {
-      "title": "Anna Pradata",
+      "title": "Agri Connect",
       "imageSrc": "projects/anna.png",
       "description": "Platform for connecting farmers and labours . ",
       "skills": ["React", "Node","MongoDB"],
-      "demo": "https://github.com/AkshatTated9?tab=repositories",
+      "demo": "https://agriconnectads.netlify.app",
       "source": "https://github.com/AkshatTated9?tab=repositories"
     }
   ]
