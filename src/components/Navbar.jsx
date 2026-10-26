@@ -1,29 +1,39 @@
-import React from "react";
-import { useState } from "react";
-import styles from "./Navbar.module.css"
-import { getimageurl } from "/src/util.js";
-function Navbar()
-{
-    const[menuopen,setmenuopen]=useState(false)
+import React, { useState } from "react";
+import styles from "./Navbar.module.css";
+
+function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
-        <nav className={styles.navbar}>
-            <a href="/" className={styles.title}>Portfolio</a>
+        <nav className={styles.navbar} aria-label="Main navigation">
+            <a href="#home" className={styles.title} aria-label="Akshat Tated, home">
+                <span className={styles.name}>AKSHAT TATED<span>.</span></span>
+                <span className={styles.role}>SOFTWARE DEVELOPER</span>
+            </a>
             <div className={styles.menu}>
-                <img className={styles.menuBtn} src={menuopen ? getimageurl("nav/closeIcon.png") : getimageurl("nav/menuIcon.png")} alt="" onClick={()=>setmenuopen(!menuopen)
-                    
-                }/>
-                {console.log(menuopen)}
-                <ul className={`${styles.menuitems}  ${menuopen && styles.menuopen}`} onClick={()=>setmenuopen(false)}>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>         
+                <button
+                    className={`${styles.menuBtn} ${menuOpen ? styles.menuBtnOpen : ""}`}
+                    type="button"
+                    aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+                    aria-expanded={menuOpen}
+                    aria-controls="primary-navigation"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    <span aria-hidden="true" />
+                </button>
+                <ul
+                    id="primary-navigation"
+                    className={`${styles.menuitems} ${menuOpen ? styles.menuopen : ""}`}
+                    onClick={() => setMenuOpen(false)}
+                >
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    
+                    <li className={styles.menuCta}><a href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></li>
                 </ul>
             </div>
         </nav>
-    )
+    );
 }
 
-
-export default Navbar
+export default Navbar;

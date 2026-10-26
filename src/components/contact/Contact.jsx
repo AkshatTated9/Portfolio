@@ -5,21 +5,22 @@ function Contact() {
     return (
         <footer id="contact" className={styles.container}>
             <div className={styles.text}>
-                <h2>Contact </h2>
-                <p >Feel Free to Contact</p>
+                <p className={styles.eyebrow}>Have a project in mind?</p>
+                <h2>Let’s build something great.</h2>
+                <p className={styles.subtext}>I’m always open to interesting conversations and opportunities.</p>
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <img src={getimageurl("contact/emailIcon.png")} alt="" />
-                    <a href="mailto:akshattated01@gmail.com">akshattated01@gmail.com</a>
+                    <img src={getimageurl("contact/emailIcon.png")} alt="" aria-hidden="true"/>
+                    <a href="mailto:akshattated99@gmail.com">akshattated99@gmail.com</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getimageurl("contact/linkedinIcon.png")} alt="" />
+                    <img src={getimageurl("contact/linkedinIcon.png")} alt="" aria-hidden="true"/>
                     <a href="https://www.linkedin.com/in/akshat-t-478789232">Akshat Tated</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getimageurl("contact/githubIcon.png")} alt="" />
-                    <a href="https://github.com/AkshatTated9">Akshattated01.git</a>
+                    <img src={getimageurl("contact/githubIcon.png")} alt="" aria-hidden="true"/>
+                    <a href="https://github.com/AkshatTated9" target="_blank" rel="noreferrer">GitHub profile</a>
                 </li>
                 
                 

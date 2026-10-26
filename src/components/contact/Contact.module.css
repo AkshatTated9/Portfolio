@@ -1,65 +1,74 @@
 @import "../../vars.css";
-.container
-{
-    color: var(--color-text);
-    margin-top: 120px;
-    background-color: var(--color-secondary);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 50px 10%;
-    gap: 10px;
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    width: min(1120px, calc(100% - 64px));
+    margin: 0 auto;
+    padding: 54px 0 48px;
+    border-top: 1px solid var(--color-border);
 }
-.text h2{
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 4px;
+.text {
+    max-width: 520px;
 }
-.text p{
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: 2px;
+.eyebrow {
+    margin-bottom: 13px;
+    color: var(--color-primary);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
-.links{
+.text h2 {
+    color: var(--color-text);
+    font-size: clamp(32px, 4.7vw, 50px);
+    font-weight: 600;
+    line-height: 1.12;
+    letter-spacing: -0.05em;
+}
+.subtext {
+    max-width: 390px;
+    margin-top: 14px;
+    color: var(--color-muted);
+    font-size: 15px;
+    line-height: 1.7;
+}
+.links {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 17px;
     list-style: none;
-    gap: 26px;
 }
-.link{
+.link {
     display: flex;
     align-items: center;
-    gap: 25px;
-
+    gap: 13px;
 }
-.link a{
-    color: white;
+.link img {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+}
+.link a {
+    color: #bdc8d6;
+    font-size: 14px;
     text-decoration: none;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
+    transition: color 180ms ease;
 }
-@media screen and (max-width:830px) {
-    .container{
+.link a:hover {
+    color: var(--color-primary);
+}
+@media screen and (max-width: 680px) {
+    .container {
         flex-direction: column;
-        
-
+        gap: 32px;
+        width: calc(100% - 40px);
+        padding: 44px 0 38px;
     }
-    .text{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+    .links {
+        gap: 16px;
     }
-    .link a{
-        font-size: 20px;
-    }
-    .links{
-        align-items: center;
-    }
-    
 }

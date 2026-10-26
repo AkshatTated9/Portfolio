@@ -4,16 +4,23 @@ import styles from "./Intro.module.css";
 function Intro()
 {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="home">
         <div className={styles.content}>
-           <h1 className={styles.title}> Hi I Am Akshat</h1>
-           <p className={styles.description}>I am a <span className={styles.prof}>full stack developer</span>.<br/>From captivating front end designs to robust back end solutions , I bring digital version to life.<br/><br/> Reach out if you'd like to learn more! </p>
-            <a href="mailto:akshattated01@gmail.com" className={styles.contactBtn}>Contact Me</a>
+           <p className={styles.eyebrow}><span className={styles.statusDot}></span> Backend developer · Full-stack builder</p>
+           <h1 className={styles.title}>Hi, I’m Akshat<span className={styles.titleAccent}>.</span></h1>
+           <p className={styles.description}>I build thoughtful digital experiences, from polished interfaces to reliable backend systems.</p>
+           <div className={styles.actions}>
+               <a href="#projects" className={styles.primaryBtn}>Explore my work <span aria-hidden="true">→</span></a>
+               <a href="mailto:akshattated99@gmail.com" className={styles.secondaryBtn}>Get in touch</a>
+           </div>
+           <p className={styles.location}>Currently building scalable APIs at GoKhana</p>
          </div>
-         <img src={getimageurl("hero/heroImage.jpg")} alt="Hero Image" className={styles.heroimg}/>
-         <div className={styles.topblur}></div>
-         <div className={styles.bottomblur}></div>
-         
+         <div className={styles.visual}>
+            <div className={styles.imageFrame}>
+                <img src={getimageurl("hero/heroImage.jpg")} alt="Akshat Tated" className={styles.heroimg}/>
+            </div>
+            <div className={styles.visualLabel}><span>01</span> Crafting for the web</div>
+         </div>
          </section>
          
     )

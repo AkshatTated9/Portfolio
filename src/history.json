@@ -1,37 +1,49 @@
 [
 
     {
-      "role": "Junior Backend Developer",
-      "organisation": " GoKhana - Tobox Ventures",
-      "startDate": "July, 2025",
+      "role": "Backend Developer",
+      "organisation": "GoKhana (Tobox Ventures)",
+      "employmentType": "Full-time",
+      "location": "Bengaluru, Karnataka",
+      "startDate": "Jul 2025",
       "endDate": "Present",
-      "experiences": ["Building scalable APIs using NestJS and MongoDB" ,"Focused on optimizing backend logic, resolving production slow query issues,"],
+      "experiences": [
+        "Developing and maintaining backend services and APIs for production applications.",
+        "Improving system performance, reliability, and integrations across backend workflows."
+      ],
       "imageSrc": "history/Gokhanalogo.png"
     },
     {
-      "role": " Web Developer Intern",
+      "role": "Software Developer Intern",
+      "organisation": "QSpiders",
+      "employmentType": "Internship",
+      "location": "Pune, Maharashtra",
+      "startDate": "Jan 2025",
+      "endDate": "Jun 2025",
+      "experiences": [
+        "Applied Core Java and object-oriented programming principles to backend logic and application development.",
+        "Used SQL and relational data modeling to structure and work with application data."
+      ],
+       "imageSrc": "history/qspider.png"
+    },
+    {
+      "role": "Web Developer Intern",
       "organisation": "K.C Barlota & Co.",
-      "startDate": "Dec, 2023",
+      "startDate": "Dec 2023",
       "endDate": "Feb 2024",
-      "experiences": ["Worked on Responsive Design", "Complete Website Development"],
+      "experiences": [
+        "Helped bring the firm’s operations online by developing a responsive website that introduced its services and made key business information easier for clients to access.",
+        "Designed the site to work smoothly across desktop and mobile, giving the firm a professional digital presence."
+      ],
       "imageSrc": "history/ca-logo1.png"
     },
     {
-      "role": "Front-End Intern",
-      "organisation": " Oasis Infobyte.",
-      "startDate": "Nov, 2023",
-      "endDate": "Dec, 2023",
-      "experiences": ["Worked on with HTML,CSS,js", "Designed the Todo App"],
-      "imageSrc": "history/oasis.jpg"
-    },
-    {
       "role": "Full Stack Intern",
-      "organisation": " Capabl.",
-      "startDate": "June, 2023",
-      "endDate": "July, 2023",
+      "organisation": "Capabl",
+      "startDate": "Jun 2023",
+      "endDate": "Jul 2023",
       "experiences": [
-        "Worked on component library",
-        "Learned to develop user friendly websites"
+        "Developed a website for selling courses, creating a user-friendly experience for browsing and purchasing courses."
       ],
       "imageSrc": "history/capabll.jpg"
     }

@@ -1,26 +1,35 @@
 [
-    {
-      "title": "Todo Application",
-      "imageSrc": "projects/project.png",
-      "description": "Todo App for staying organised and productive. ",
-      "skills": ["React", "CSS", "Javascript"],
-      "demo": "https://todo-web-app-8t2g.onrender.com/?",
-      "source": "https://github.com/AkshatTated9/Todo-Web-App"
-    },
-    {
-      "title": "Website For C.A. firm",
-      "imageSrc": "projects/kc.png",
-      "description": "Website for a well known C.A. firm of Maharastra",
-      "skills": ["HTML", "Node", "CSS","Javascript"],
-      "demo": "https://kcbarlota.netlify.app/",
-      "source": "https://github.com/AkshatTated9?tab=repositories"
-    },
-    {
-      "title": "Agri Connect",
-      "imageSrc": "projects/anna.png",
-      "description": "Platform for connecting farmers and labours . ",
-      "skills": ["React", "Node","MongoDB"],
-      "demo": "https://agriconnectads.netlify.app",
-      "source": "https://github.com/AkshatTated9?tab=repositories"
-    }
-  ]
+  {
+    "title": "AgriDas",
+    "description": "A marketplace connecting farmers, labour providers, and machinery providers.",
+    "skills": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Cloudinary", "Docker"],
+    "highlights": [
+      "Built REST APIs for listings, bookings, and accounts with protected, role-scoped access for three user roles.",
+      "Implemented proximity discovery with MongoDB 2dsphere indexes and aggregation pipelines, achieving sub-200 ms responses.",
+      "Added JWT authentication and Google OAuth, plus a reusable React frontend with lazy loading and code splitting."
+    ],
+    "source": "https://github.com/AkshatTated9/AgriDas"
+  },
+  {
+    "title": "Event Trigger Engine",
+    "description": "A lightweight background job engine for triggering, scheduling, and reliably executing asynchronous tasks.",
+    "skills": ["NestJS", "TypeScript", "BullMQ", "Redis", "PostgreSQL", "TypeORM", "Docker"],
+    "highlights": [
+      "Returns API acknowledgements immediately while dedicated workers process long-running jobs asynchronously.",
+      "Supports event-driven, delayed, and scheduled jobs with persistent queues, sampling, deduplication, and retries.",
+      "Persists tasks and events with PostgreSQL and TypeORM; provides authenticated REST APIs with request validation."
+    ],
+    "source": "https://github.com/AkshatTated9/Event-Trigger-Engine"
+  },
+  {
+    "title": "Social Media Backend",
+    "description": "A containerized social platform API for secure user, content, and engagement workflows.",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Redis", "Docker", "AWS EC2"],
+    "highlights": [
+      "Created REST APIs with JWT authentication and role-based authorization for social-media workflows.",
+      "Used Redis to cache feed and profile endpoints, reducing average response time from 320 ms to 55 ms.",
+      "Deployed the Dockerized application to AWS EC2, with PostgreSQL and SQLAlchemy powering relational data."
+    ],
+    "source": "https://github.com/AkshatTated9/Fastapi-SocialMedia"
+  }
+]
